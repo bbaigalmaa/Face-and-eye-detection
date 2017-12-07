@@ -140,13 +140,10 @@ public class VideoController
 				             rightEye[0] = eyesArray[1].x;
 				             rightEye[1] = eyesArray[1].y;
 				             
-				             if(leftEye[0] > 100 && leftEye[0] < 120 && rightEye[0] < 120 && rightEye[0]>100){
-				            	 System.out.println("center display");
-				             }
-				             else if(leftEye[0] > 150 && rightEye[0] <= 100){
-				            	 System.out.println("left display");
+				             if(leftEye[0] > 150 && rightEye[0] <= 100){
+				            	 System.out.println("left eye");
 				             }else if(leftEye[0] <= 100 && rightEye[0] >= 120){
-				            	 System.out.println("right display");
+				            	 System.out.println("right eye");
 				             }
 				            
 //				             System.out.println(leftEye[0] + " " +  leftEye[1]);
